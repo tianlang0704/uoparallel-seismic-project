@@ -46,13 +46,12 @@
 #define STARTMAX	4	/* maximum starting points */
 
 #define GRIDX 256
-#define GRIDY 256
+#define GRIDY 128
 #define GRIDZ 1
 #define BLOCKX 1
-#define BLOCKY 1
+#define BLOCKY 2
 #define BLOCKZ 64
-#define DEVNUM 3
-const int starSplit[4] = {0, 330, 580, 818};
+const int starSplit[4] = {0, 330, 560, 818};
 
 struct FS {			/* forward start offset */
   int		i, j, k;	/* point coordinates */
